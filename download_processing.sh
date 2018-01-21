@@ -15,7 +15,6 @@ cd sketchbook
 mkdir libraries
 cd libraries
 wget https://github.com/ddf/Minim/archive/master.zip
-
-tar zxvf $master.zip > /dev/null
+tar zxvf master.zip > /dev/null
 cd ..
 cd ..
