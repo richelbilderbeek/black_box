@@ -14,3 +14,7 @@ It is a big maze ...
 And you have to use your ears ...
 
 ![Game](pics/game.png)
+
+## Libraries used
+
+ * [Minim](https://github.com/ddf/Minim)
