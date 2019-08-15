@@ -1,4 +1,5 @@
 language: java
+dist: bionic
 
 install:
   # markdown-link-check
@@ -11,11 +12,7 @@ script:
   - ./download_minim.sh
   - ./build.sh
   # Check dead links
-<<<<<<< HEAD
-  #- find . -name \*.md -exec markdown-link-check {} \; 2>/dev/null | egrep "[✖]"
-=======
   # - find . -name \*.md -exec markdown-link-check {} \; 2>/dev/null | egrep "[✖]"
->>>>>>> develop
 
 after_failure:
   - find . | egrep "processing-java"
