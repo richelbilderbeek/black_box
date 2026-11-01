@@ -1,8 +1,8 @@
 
-final int player_width = 320;
-final int player_height = 200;
-float x = 300;
-float y = 200;
+final int player_width = 600;
+final int player_height = 600;
+float x = 600;
+float y = 600;
 final float sensitivity = 30;
 int last_interval = 0;
 
@@ -14,7 +14,7 @@ boolean started = false;
 
 void setup()
 {
-  size(1200,800);
+  size(640,400);
   noStroke();
 }
 
