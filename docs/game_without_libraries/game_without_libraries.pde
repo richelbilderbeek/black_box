@@ -1,6 +1,6 @@
 
-final int player_width = 600;
-final int player_height = 600;
+final int player_width = 320;
+final int player_height = 200;
 float x = 300;
 float y = 200;
 final float sensitivity = 30;
