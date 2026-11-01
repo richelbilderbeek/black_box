@@ -5,7 +5,8 @@ repo_url = "https://github.com/richelbilderbeek/black_box"
 edit_uri = "blob/main/docs/"
 
 nav = [
-  { "Start" = "README.md"}
+  { "Start" = "README.md"},
+  "game/README.md"
 ]
 
 # To run the game in the website
