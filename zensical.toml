@@ -8,6 +8,12 @@ nav = [
   { "Start" = "README.md"}
 ]
 
+# To run the game in the website
+extra_javascript = [
+  "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js",
+  "javascripts/sketches.js",
+]
+
 [project.theme]
 # https://zensical.org/docs/setup/basics/?h=theme#theme-variant
 variant = "classic"

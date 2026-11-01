@@ -1,6 +1,8 @@
 # Black Box
 
-[Go to the nicely rendered website](https://richelbilderbeek.github.io/black_box/).
+- [Go to the nicely rendered website](https://richelbilderbeek.github.io/black_box/).
+
+The game can be found in the folder `docs/game`.
 
 ## Files used by continuous integration scripts
 
