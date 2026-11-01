@@ -35,7 +35,8 @@ void draw()
   if (!started)
   {
     background(255);
-    stroke(0); fill(0);
+    stroke(0);
+    fill(0);
     textSize(20);
     text("Generating maze", width / 2, height / 2);
     if (millis() > 2300) started = true;
