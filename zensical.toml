@@ -6,20 +6,22 @@ edit_uri = "blob/main/docs/"
 
 nav = [
   { "Start" = "README.md"},
-  "game/README.md"
+  "game/README.md",
+  "game_without_libraries/README.md"
 ]
 
-# To run the game in the website via Processing 3
-extra_javascript = [
-  "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js",
-  "javascripts/sketches.js",
-] 
 # To run the game in the website via Processing 2 without any libraries
-# Useless, because the game heavily relies on sounds
+# Will run a version without any libraries
+extra_javascript = [
+  "https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js",
+  "javascripts/pde-loader.js",
+]
+# To run the game in the website via Processing 3
+# DOES NOT WORK
 #extra_javascript = [
-#  "https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js",
-#  "javascripts/pde-loader.js",
-#]
+#  "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js",
+#  "javascripts/sketches.js",
+#] 
 
 [project.theme]
 # https://zensical.org/docs/setup/basics/?h=theme#theme-variant
