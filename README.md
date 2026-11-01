@@ -1,15 +1,13 @@
-# black_box
+# Black Box
 
-Processing game in which you have to move a marble through a randomly generated maze, using sounds only.
+[Go to the nicely rendered website](https://richelbilderbeek.github.io/black_box/).
 
-It is a big maze ...
+## Files used by continuous integration scripts
 
-![Loading screen](pics/loading_screen.png)
-
-And you have to use your ears ...
-
-![Game](pics/game.png)
-
-## Libraries used
-
- * [Minim](https://github.com/ddf/Minim)
+Filename                                  |Descriptions
+------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------
+[mlc_config.json](mlc_config.json)        |Configuration of the link checker, use `markdown-link-check --config mlc_config.json --quiet docs/**/*.md` to do link checking locally
+[.spellcheck.yml](.spellcheck.yml)        |Configuration of the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
+[.wordlist.txt](.wordlist.txt)            |Whitelisted words for the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
+[.markdownlint.jsonc](.markdownlint.jsonc)|Configuration of the markdown linter, use `markdownlint "**/*.md"` to do markdown linting locally. The name of this file is a default name.
+[.markdownlintignore](.markdownlintignore)|Files ignored by the markdown linter, use `markdownlint "**/*.md"` to do markdown linting locally. The name of this file is a default name.
