@@ -7,8 +7,8 @@ import ddf.minim.ugens.*;
 
 final int player_width = 600;
 final int player_height = 600;
-float x = 600;
-float y = 600;
+float x = player_width; // Outside of the screen
+float y = player_height; // Outside of the screen
 final float sensitivity = 30;
 int last_interval = 0;
 
