@@ -2,7 +2,7 @@
 
 This is Black Box without libraries.
 
-To play, click on the area below this line.
+To play, click on the area below this line and/or refresh this webpage.
 
 <canvas class="pde" data-src="game_without_libraries.pde"></canvas>
 
