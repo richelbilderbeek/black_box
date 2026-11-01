@@ -12,4 +12,4 @@ And you have to use your ears ...
 
 ## Libraries used
 
- * [Minim](https://github.com/ddf/Minim)
+* [Minim](https://github.com/ddf/Minim)
