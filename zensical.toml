@@ -9,11 +9,17 @@ nav = [
   "game/README.md"
 ]
 
-# To run the game in the website
+# To run the game in the website via Processing 3
 extra_javascript = [
   "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js",
   "javascripts/sketches.js",
-]
+] 
+# To run the game in the website via Processing 2 without any libraries
+# Useless, because the game heavily relies on sounds
+#extra_javascript = [
+#  "https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js",
+#  "javascripts/pde-loader.js",
+#]
 
 [project.theme]
 # https://zensical.org/docs/setup/basics/?h=theme#theme-variant
